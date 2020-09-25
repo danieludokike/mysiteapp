@@ -16,7 +16,7 @@ from .views import (
 
 app_name = 'web_class'
 urlpatterns = [
-    path('', home_page_view, name='home'),
+    path('/', home_page_view, name='home'),
     path('web_class/about/', about_web_class_page_view, name='about'),
     path('contact/', contact_page_view, name='contact'),
 

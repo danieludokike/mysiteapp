@@ -20,7 +20,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     # Configured
-    path('', include('web_class_app.urls')),
+    path('/', include('web_class_app.urls')),
 
     # Default Routing
     path('admin/', admin.site.urls),
